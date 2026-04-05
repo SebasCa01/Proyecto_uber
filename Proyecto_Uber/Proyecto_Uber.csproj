@@ -46,6 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Layers\persistencia\DataBase.cs" />
+    <Compile Include="Layers\persistencia\FactoryConexion.cs" />
+    <Compile Include="Layers\persistencia\FactoryDataBase.cs" />
+    <Compile Include="Layers\persistencia\IDataBase.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
